@@ -31,6 +31,8 @@ img{
 
 .menu{
   display: flex;
+  flex-wrap: wrap;
+  justify-content:center ;
   gap: 1.25rem;
 }
 
@@ -52,7 +54,11 @@ img{
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 63rem;
-  
+}
+
+.container img{
+  object-fit: cover;
+  height: 100%;
 }
 
 .info-1::before{
@@ -135,4 +141,51 @@ img{
   width: 100%;
   padding: 2.5rem;
   text-align: center;
+}
+
+
+/* ------------------MEDIA QUERIES------------------ */
+ @media (max-width: 1000px) {
+  .header{
+    gap: 2rem;
+  }
+
+  .info-2{
+    padding: 2.5rem 4rem;
+  }
+
+  .info-item{
+    padding-right: 5rem;
+  }
+
+  .container-vantagens{
+    grid-template-columns: 1fr;
+  }
+
+  .sub{
+    text-align: center;
+  }
+
+
+} 
+
+@media (max-width: 650px) {
+  body{
+    gap: 1rem;
+    margin-top: 20px;
+  }
+
+  .container{
+    grid-template-columns: 1fr;
+  }
+
+  .info-1{
+    text-align: left ;
+    align-content: center;
+    justify-items: center;
+  }
+  
+  .sub{
+    font-size: 3rem;
+  }
 }
