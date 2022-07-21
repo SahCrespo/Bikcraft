@@ -1,6 +1,6 @@
 # <center>Bickcraft</center>
 
-Exercício da plataforma Origamid, usando recursos de posicionamento (grid, flexbox, position).<center>
+Exercício da plataforma Origamid, usando recursos de posicionamento (grid, flexbox, position). Assim que possível será incrementado responsividade no site.<center>
 
 <br>
 
